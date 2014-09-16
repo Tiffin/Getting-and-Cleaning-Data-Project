@@ -28,6 +28,7 @@ fBodyAccMag
 fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
+
 The set of variables that were estimated from these signals included here are:
 
 mean(): Mean value
@@ -35,9 +36,13 @@ std(): Standard deviation
 The selected tidy variable names included here for mean and standard deviation are:
 
 tbodyaccmeanx
+
 tbodyaccmeany
+
 tbodyaccmeanz
+
 tbodyaccstdx
+
 tbodyaccstdy
 tbodyaccstdz
 tgravityaccmeanx
