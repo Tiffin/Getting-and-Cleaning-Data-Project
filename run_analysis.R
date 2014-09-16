@@ -49,4 +49,4 @@ names(tidy_Average) <- c("subject","activity","activityName", sapply(filter_cols
 tidy_Average <- tidy_Average[order(tidy_Average$subject,tidy_Average$activity),]
 
 ## Write to output file 
-write.table(tidy_Average, "tidy.txt", sep="\t")
+write.table(tidy_Average, "tidy.txt", row.name=FALSE,sep="\t")
