@@ -52,7 +52,9 @@ std(): Standard deviation
 The selected tidy variable names included here for mean and standard deviation are:
 
 tbodyaccmeanx
+
 tbodyaccmeany
+
 tbodyaccmeanz
 
 tbodyaccstdx
